@@ -1,0 +1,140 @@
+* {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Tenor Sans";
+  background-color: #4b586b;
+}
+
+.action-btn {
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+}
+
+
+.top-heading {
+  position: absolute;
+  width: 1345px;
+  height: 50px;
+  margin-left: 80px;
+  border-radius: 10px 10px 0 0;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  color: white;
+}
+
+.check-out {
+  background-color: #4b586b;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  font-family: Abel;
+}
+
+table {
+  width: 1345px;
+  margin-left: 80px;
+  font-size: 28px;
+}
+
+#c-head {
+  width: 1345px;
+  background-color: #363f4d;
+}
+
+#c-head>td {
+  padding: 5px 20px 0 20px;
+  /* text-decoration: underline; */
+  color: white;
+}
+
+#p-body {
+  background-color: #6c7b8e;
+}
+
+.totalFoot {
+  width: 1345px;
+  border-radius: 0 0 10px 10px;
+}
+
+#t-foot {
+  width: 1345px;
+  background-color: #363f4d;
+}
+
+/* payment table */
+.payment>table {
+  padding-top: 3%;
+  text-align: left;
+  width: 55%;
+}
+
+/* button table  */
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-container button {
+  margin-left: 5px;
+  /* adjust spacing between buttons */
+}
+
+.button-container button {
+  width: 170px;
+  /* adjust width as needed */
+  height: 50px;
+  /* adjust height as needed */
+  border-radius: 15px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.orange-button {
+  background-color: #ed7225;
+  color: white;
+  /* adjust text color for contrast */
+}
+
+.blue-button {
+  background-color: #6c7b8e;
+  color: white;
+  /* adjust text color for contrast */
+}
+
+.orange-button:hover {
+  background-color: #c55f1f;
+  color: rgb(201, 200, 200);
+}
+
+.blue-button:hover {
+  background-color: #545f6d;
+  color: rgb(201, 200, 200);
+}
+#payment-button{
+  background-color: #5C2D91;
+  width: 220px;
+}
+
+#deliveryAddressInput,#myTextarea {
+  border-radius: 7px;
+  width: 365px;
+  background-color: #6c7b8e;
+  color: white;
+  padding: 10px;
+  font-family: "Tenor Sans";
+  font-size: 16px;
+}
+textarea::placeholder {
+  color: #fff; /* Change the color here */
+}

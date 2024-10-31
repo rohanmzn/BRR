@@ -1,0 +1,142 @@
+.button-rect,
+.main {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: #6C7B8E;
+  height: 400px;
+}
+
+.button-rect {
+  background-color: #ed7225;
+  height: 50px;
+}
+
+.button-rect:hover {
+  color: #bebebe;
+  background-color: #d16420;
+  transition: 0.3s;
+}
+
+.delete-icon {
+  position: absolute;
+  top: 12px;
+  left: calc(50% - 10.5px);
+  width: 25px;
+  height: 25px;
+}
+
+.cart-icon,
+.delete {
+  position: absolute;
+  width: 43.44%;
+  top: 340px;
+  right: 3.44%;
+  left: 53.13%;
+  height: 89px;
+}
+
+.cart-icon {
+  width: 30px;
+  height: 30px;
+  top: 5px;
+  right: 35.25%;
+  left: 35.25%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 41px;
+}
+
+.add-to-cart {
+  position: absolute;
+  width: 43.44%;
+  top: 340px;
+  right: 50.31%;
+  left: 6.25%;
+  height: 89px;
+}
+
+.price,
+.product-name {
+  position: absolute;
+  width: 100%;
+  top: 31px;
+  left: 0;
+  line-height: 90px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  height: 22px;
+}
+
+.product-name {
+  top: 0;
+  font-size: 24px;
+  text-shadow: 0.5px 0 0#fff, 0 0.5px 0#fff, -0.5px 0 0#fff, 0-0.5px 0#fff;
+}
+
+.text {
+  position: absolute;
+  width: 68.44%;
+  top: 280px;
+  right: 25.31%;
+  left: 6.25%;
+  height: 53px;
+}
+
+.disp,
+.display {
+  position: absolute;
+  height: 298px;
+}
+
+.disp {
+  width: 100%;
+  height: 85%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.display {
+  width: 93.13%;
+  top: 10px;
+  right: 3.44%;
+  left: 3.44%;
+}
+
+.product {
+  position: absolute;
+  width: 24.04%;
+  top: 0;
+  right: 75.96%;
+  left: 0;
+  height: 493px;
+}
+
+.wishlist-products {
+  position: absolute;
+  width: 92.43%;
+  top: 0;
+  right: 3.26%;
+  left: 4.31%;
+  height: 300px;
+}
+
+.my-wishlist {
+  position: relative;
+  background-color: transparent;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Tenor Sans";
+  float: left;
+}

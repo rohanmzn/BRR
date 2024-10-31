@@ -1,0 +1,57 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+th {
+  background-color: #6c7b8e;
+  border: 1px solid white;
+  height: 40px;
+  text-decoration: underline;
+}
+
+td {
+  border: 1px solid white;
+  height: auto;
+  padding: 10px 0;
+}
+
+thead {
+  width: 100%;
+  border: 1px solid white;
+}
+
+thead th {
+  position: sticky;
+  z-index: 1;
+  top: 111px;
+
+}
+
+tr:hover {
+  background-color: #6c7b8e;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+td>a {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f27f04;
+  /* Orange color */
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+td>a:hover {
+  background-color: #d46621;
+  /* Darker orange for hover effect */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+th{
+  text-decoration: none;
+}

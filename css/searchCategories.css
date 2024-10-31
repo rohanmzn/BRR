@@ -1,0 +1,310 @@
+.cart-rect,
+.main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: #6c7b8e;
+}
+
+.cart-rect {
+  background-color: #ed7225;
+}
+
+.cart-icon {
+  position: absolute;
+  height: 45.05%;
+  width: 45.56%;
+  top: 27.47%;
+  right: 26.67%;
+  bottom: 27.47%;
+  left: 27.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.add-to-cart {
+  position: absolute;
+  height: 18.46%;
+  width: 28.13%;
+  top: 79.31%;
+  right: 4.38%;
+  bottom: 2.23%;
+  left: 67.5%;
+}
+
+.buy-now1,
+.buy-rect {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+
+.buy-rect {
+  width: 97.95%;
+  right: 0;
+  bottom: 0;
+  left: 2.05%;
+  border-radius: 30px;
+  background-color: #ed7225;
+}
+
+.buy-now1 {
+  width: 100%;
+  left: 0;
+  letter-spacing: 2px;
+  line-height: 90px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+}
+
+.buy-now,
+.wishlist-icon {
+  position: absolute;
+  height: 18.05%;
+  width: 60.94%;
+  top: 79.31%;
+  right: 35.94%;
+  bottom: 2.64%;
+  left: 3.13%;
+}
+
+.wishlist-icon {
+  height: 63.79%;
+  width: 16.92%;
+  top: 0;
+  right: 0;
+  bottom: 36.21%;
+  left: 83.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.price,
+.product-name {
+  position: absolute;
+  height: 37.93%;
+  width: 82.33%;
+  top: 62.07%;
+  left: 0;
+  line-height: 90px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+
+.product-name {
+  top: 0;
+  font-size: 24px;
+  text-shadow: 0.5px 0 0#fff, 0 0.5px 0#fff, -0.5px 0 0#fff, 0-0.5px 0#fff;
+}
+
+.text {
+  height: 11.76%;
+  width: 83.13%;
+  top: 65.31%;
+  right: 10.63%;
+  bottom: 22.92%;
+  left: 6.25%;
+  text-align: left;
+  font-size: 20px;
+}
+
+.disp,
+.display,
+.text {
+  position: absolute;
+}
+
+.disp {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.display {
+  height: 60.45%;
+  width: 93.13%;
+  top: 2.03%;
+  right: 3.44%;
+  bottom: 37.53%;
+  left: 3.44%;
+}
+
+.product {
+  position: absolute;
+  height: 100%;
+  width: 23.9%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 76.1%;
+}
+
+.product1,
+.product2,
+.product3 {
+  right: 25.17%;
+  left: 50.93%;
+}
+
+.product2,
+.product3 {
+  right: 50.34%;
+  left: 25.77%;
+}
+
+.product3 {
+  right: 76.1%;
+  left: 0;
+}
+
+.product-grid,
+.product-grid1,
+.product-grid2 {
+  position: absolute;
+  width: 92.99%;
+  top: 266px;
+  right: 2.92%;
+  left: 4.1%;
+  height: 493px;
+}
+
+.product-grid1,
+.product-grid2 {
+  top: 777px;
+}
+
+.product-grid2 {
+  top: 1288px;
+}
+
+.hoodies,
+.shop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 90px;
+}
+
+.hoodies {
+  top: 1px;
+  left: 102px;
+}
+
+.filter {
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-shadow: 1px 0 0#f5f5f5, 0 1px 0#f5f5f5, -1px 0 0#f5f5f5, 0-1px 0#f5f5f5;
+}
+
+.forward-arrow-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+
+.button {
+  position: absolute;
+  top: 7px;
+  left: 1087px;
+  border-radius: 30px;
+  background-color: #ed7225;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  width: 221px;
+  height: 77px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 33px;
+  box-sizing: border-box;
+  gap: 16px;
+  text-align: center;
+  font-size: 24px;
+  color: #fcfcfc;
+  font-family: "Tenor Sans";
+}
+
+.cate-head {
+  position: absolute;
+  top: 148px;
+  left: 70px;
+  width: 1308px;
+  height: 91px;
+  text-align: left;
+  font-size: 32px;
+  font-family: Actor;
+}
+
+.toplogo-icon {
+  position: relative;
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.home {
+  position: relative;
+  line-height: 90px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 73px;
+  flex-shrink: 0;
+  text-shadow: 0.5px 0 0#f5f5f5, 0 0.5px 0#f5f5f5, -0.5px 0 0#f5f5f5,
+    0-0.5px 0#f5f5f5;
+}
+
+.primary-icon {
+  position: absolute;
+  top: 0;
+  left: 71px;
+  width: 42px;
+  height: 36px;
+}
+
+.primary-icon1,
+.primary-icon2 {
+  position: absolute;
+  top: 1.37px;
+  left: 145px;
+  width: 40px;
+  height: 38px;
+}
+
+.primary-icon2 {
+  left: 0;
+  width: 39px;
+  height: 37px;
+}
+
+.categories {
+  position: relative;
+  background-color: #4b586b;
+  width: 100%;
+  height: 2208px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-family: "Tenor Sans";
+}

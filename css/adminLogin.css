@@ -1,0 +1,293 @@
+body {
+  overflow-y: hidden;
+}
+
+.blue-rect,
+.white-rect {
+  position: absolute;
+  width: 100%;
+}
+
+.blue-rect {
+  top: 0;
+  background-color: #4b586b;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  height: 800px;
+}
+
+.white-rect {
+  top: 177px;
+  left: 0;
+  /* border-radius: 20px 20px 0 0; */
+  background-color: #fafafa;
+  height: 450px;
+}
+
+.bg {
+  /* position: absolute; */
+  top: 0;
+}
+
+.bg {
+  /* left: calc(50% - 196.5px); */
+  width: 100%;
+  height: fit-content;
+}
+
+.password1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.forgotten-password {
+  color: #252b42;
+}
+
+.reset {
+  text-decoration: underline;
+  color: #6c7b8e;
+}
+
+.forgotten-password-reset-container {
+  position: absolute;
+  top: 82px;
+  left: 185px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: right;
+  color: #6c7b8e;
+}
+
+.password-child {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  width: 345px;
+  height: 46px;
+}
+
+.closed-eye-icon,
+.lock-icon {
+  z-index: 1;
+  position: absolute;
+  top: 36px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.closed-eye-icon {
+  top: 38px;
+  left: 311px;
+  width: 20px;
+  height: 20px;
+}
+
+.dots-icon {
+  position: absolute;
+  top: 48px;
+  left: 58px;
+  width: 90px;
+  height: 8px;
+}
+
+.password {
+  position: absolute;
+  top: 146.35px;
+  left: calc(50% - 172.5px);
+  width: 345px;
+  height: 91.83px;
+}
+
+.email {
+  position: absolute;
+  top: 67.91px;
+  left: calc(50% - 172.5px);
+  width: 345px;
+  height: 68.87px;
+  text-align: center;
+}
+
+.welcome-back {
+  position: absolute;
+  top: 0;
+  left: 18px;
+  font-size: 28px;
+  text-decoration: underline;
+  line-height: 36px;
+  font-family: Telex;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.ls-enter-your-log {
+  margin: 0;
+  top: 0;
+}
+
+.ls-enter-your-log-container {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  line-height: 20px;
+  color: #6c7b8e;
+}
+
+.texts {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 99.5px);
+  width: 200px;
+  height: 72.7px;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.content,
+.slogan {
+  position: absolute;
+  top: 200px;
+  left: calc(50% - 172.5px);
+  width: 355px;
+  height: 418px;
+}
+
+.slogan {
+  top: 106px;
+  left: calc(50% - 129px);
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 258px;
+  height: 20px;
+  text-shadow: 10px 10px 60px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+}
+
+.lsLogo-icon {
+  position: absolute;
+  top: 1rem;
+  left: calc(50% - 78.73px);
+  width: 157.46px;
+  height: 110.25px;
+  object-fit: cover;
+}
+
+.lsLogo,
+.lsLogo1 {
+  position: absolute;
+  top: -131px;
+  left: calc(50% - 129.5px);
+  width: 258px;
+  height: 110px;
+}
+
+.lsLogo {
+  top: 100px;
+  left: calc(50% - 108.5px);
+  width: 217px;
+  height: 60px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Tenor Sans";
+}
+
+.login-screen {
+  /* border: 3px solid red; */
+  position: relative;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 690px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 14px;
+  color: #252b42;
+  font-family: "Open Sans";
+}
+
+.slogan>#lsP {
+  position: absolute;
+  top: 0.1rem;
+  left: calc(50% - 181px);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 22.63rem;
+  height: 1.44rem;
+  /* text-shadow: 10px 10px 60px rgba(0, 0, 0, 0.5); */
+  opacity: 0.8;
+}
+
+/* rohan */
+.inputField {
+  position: absolute;
+  top: 23px;
+  left: 0px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #999;
+  text-align: left;
+}
+
+input[type="email"],
+input[type="password"] {
+  position: absolute;
+  border: none;
+  width: 290px;
+  height: 44px;
+  border-radius: 10px;
+  background-color: transparent;
+  margin: 0;
+  padding-left: 55px;
+}
+
+input[type="submit"] {
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #4b586b;
+  position: absolute;
+  top: 261.13px;
+  left: calc(50% - 172.5px);
+  width: 345px;
+  height: 45.91px;
+  font-size: 16px;
+  color: #f2f2f2;
+}
+
+input[type="submit"]:hover {
+  background-color: #363f4b;
+  transition: 0.2s;
+}
+
+.notification>div {
+  top: 0;
+  right: 0;
+}
+
+.error-message {
+  width: 200px;
+  height: 20px;
+  padding: 1%;
+  border: 1px solid black;
+  color: red;
+  z-index: 1;
+}
+
+#topBlue {
+  background-color: #4b586b;
+  height: 60px;
+  width: 100%;
+}
+
+.footer-2-child {
+  background-color: #363f4b;
+}

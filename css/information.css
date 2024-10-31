@@ -1,0 +1,32 @@
+table {
+  width: 40%;
+  text-align: left;
+  font-size: 20px;
+}
+
+/* button table  */
+.orange-button {
+  width: 170px;
+  /* adjust width as needed */
+  height: 50px;
+  /* adjust height as needed */
+  border-radius: 15px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.orange-button {
+  background-color: #ed7225;
+  color: white;
+  /* adjust text color for contrast */
+}
+
+.orange-button:hover {
+  background-color: #c55f1f;
+  color: rgb(201, 200, 200);
+}
+
+button>a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,68 @@
+* {
+  font-family: "tenor sans";
+  overflow: hidden;
+}
+
+.myProfileContainer {
+  background-color: #4B586B;
+  width: 100%;
+  height: 665px;
+}
+
+.myProfileContainer>div {
+  float: left;
+}
+
+/* rohan */
+.myProfileMain {
+  float: left;
+  width: 76%;
+  height: 94%;
+  color: aliceblue;
+  margin-left: 2%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* For Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* border:1px solid red; */
+
+}
+
+.sidebar {
+  z-index: 1;
+  margin-left: 3%;
+  width: 18%;
+  height: 560px;
+  background-color: #6C7B8E;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.heading {
+  text-align: center;
+  color: #F4FDFF;
+  font-size: 1.5em;
+}
+
+.sidebar-item {
+  color: #F4FDFF;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 2px 16px;
+  padding: 2% 0 2% 10%;
+  /* border: 1px solid white; */
+  border-radius: 10px;
+}
+
+.sidebar-item:hover {
+  color: white;
+  background-color: #ED7225;
+  transition: 0.5s;
+}
+
+#mpHr {
+  margin: 0;
+  width: 99.5%;
+}

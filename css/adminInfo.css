@@ -1,0 +1,71 @@
+*{
+    font-family:"Tenor Sans";
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  th {
+    background-color: #6c7b8e;
+    border: 1px solid white;
+    height: 40px;
+    /* text-decoration: underline; */
+  }
+  
+  td {
+    border: 1px solid white;
+    height: auto;
+    padding: 10px 0;
+  }
+  
+  thead {
+    width: 100%;
+    border: 1px solid white;
+  }
+  
+  thead th {
+    position: sticky;
+    z-index: 1;
+    top: 111px;
+  
+  }
+  table{
+    float: left;
+    margin-bottom: 20px;
+  }
+  #orders,#total_sales,#profileInfo{
+    width:30%;
+    margin-right: 20px;
+  }
+  #insights,#topSelling,#newArrivals{
+    width:68%;
+  }
+  #newArrivals{
+    height: 183px;
+  }
+  #underline>td{
+    text-decoration: underline;
+  }
+
+  .orange-button {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #ed7225;
+    color: white;
+    /* adjust text color for contrast */
+}
+#changePassword{
+  width: 170px;
+}
+
+.orange-button:hover{
+    background-color: #c55f1f;
+    color: rgb(201, 200, 200);
+}

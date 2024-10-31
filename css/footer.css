@@ -1,0 +1,226 @@
+.FOOTER {
+    position: relative;
+    width: 100%;
+    height: 322px;
+    background-color: #000;
+}
+
+.FOOTER .gradient {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    top: 322px;
+    left: 0;
+    background: linear-gradient(90deg, rgb(108, 123, 142) 0%, rgb(237, 114, 37) 100%);
+}
+
+.FOOTER .COPYRIGHT {
+    position: absolute;
+    width: 195px;
+    height: 24px;
+    top: 274px;
+    left: 623px;
+}
+
+.FOOTER .text-wrapper {
+    position: absolute;
+    width: 603px;
+    height: 54px;
+    top: -16px;
+    left: -204px;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    color: #f5f5f5;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.23px;
+    line-height: 53px;
+}
+
+.FOOTER .line {
+    position: absolute;
+    width: 1249px;
+    height: 1px;
+    top: 258px;
+    left: 122px;
+    object-fit: cover;
+}
+
+.FOOTER .FOLLOW-US {
+    position: absolute;
+    width: 248px;
+    height: 52px;
+    top: 48px;
+    left: 1144px;
+}
+
+.FOOTER .div {
+    position: absolute;
+    top: -1px;
+    left: 14px;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    color: #f5f5f5;
+    font-size: 24px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 36px;
+    white-space: nowrap;
+}
+
+.FOOTER .social-media {
+    position: absolute;
+    width: 127px;
+    height: 47px;
+    top: -6px;
+    left: 130px;
+}
+
+.FOOTER .facebook {
+    position: absolute;
+    width: 37px;
+    height: 47px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.FOOTER .insta {
+    position: absolute;
+    width: 37px;
+    height: 47px;
+    top: 0;
+    left: 45px;
+    object-fit: cover;
+}
+
+.FOOTER .twitter {
+    position: absolute;
+    width: 37px;
+    height: 47px;
+    top: 0;
+    left: 90px;
+    object-fit: cover;
+}
+
+.FOOTER .CONTACT-US {
+    position: absolute;
+    width: 150px;
+    height: 178px;
+    top: 48px;
+    left: 726px;
+}
+
+.FOOTER .text-wrapper-2 {
+    top: -1px;
+    color: #f5f5f5;
+    font-size: 24px;
+    line-height: 36px;
+    position: absolute;
+    left: 0;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.FOOTER .text-wrapper-3 {
+    position: absolute;
+    top: 51px;
+    left: 0;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    color: #999999;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.FOOTER .text-wrapper-4 {
+    position: absolute;
+    top: 83px;
+    left: 0;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    color: #999999;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.FOOTER .RESOURCES {
+    position: absolute;
+    width: 150px;
+    height: 178px;
+    top: 48px;
+    left: 528px;
+}
+
+.FOOTER .text-wrapper-5 {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    color: #999999;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.FOOTER .text-wrapper-6 {
+    position: absolute;
+    top: 119px;
+    left: 0;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    color: #999999;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.FOOTER .text-wrapper-7 {
+    top: 153px;
+    color: #999999;
+    font-size: 18px;
+    line-height: 24px;
+    position: absolute;
+    left: 0;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.FOOTER .COMPANY {
+    position: absolute;
+    width: 140px;
+    height: 178px;
+    top: 48px;
+    left: 340px;
+}
+
+.FOOTER .logo {
+    position: absolute;
+    width: 160px;
+    height: 144px;
+    top: 17px;
+    left: 122px;
+    object-fit: cover;
+}
+
+/* rohan */
+#hr {
+    margin: 0;
+    width: 99.9%;
+}
+
+#anker {
+    text-decoration: none;
+    color: #999999;
+}

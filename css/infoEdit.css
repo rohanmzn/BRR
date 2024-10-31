@@ -1,0 +1,51 @@
+* {
+    background-color: #4b586b;
+    overflow: hidden;
+}
+
+label,
+input[type="text"],
+button,
+input::placeholder {
+    color: white;
+}
+
+/* button table  */
+.orange-button {
+    width: 100px;
+    /* adjust width as needed */
+    height: 30px;
+    /* adjust height as needed */
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.orange-button {
+    background-color: #ed7225;
+    color: white;
+    /* adjust text color for contrast */
+}
+
+.orange-button:hover {
+    background-color: #c55f1f;
+    color: rgb(201, 200, 200);
+}
+
+button>a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Optional for vertical centering */
+    height: 100vh;
+    /* Optional to fill the viewport */
+}
+
+#blue {
+    background-color: #545f6d;
+}

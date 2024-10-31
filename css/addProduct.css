@@ -1,0 +1,89 @@
+* {
+    overflow: hidden;
+    color: white;
+}
+
+td>input,
+option {
+    background-color: #4b586b;
+}
+
+label,
+input[type="text"],
+button,
+input::placeholder {
+    color: white;
+}
+
+/* button table  */
+.orange-button {
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.orange-button1 {
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #ed7225;
+}
+
+.orange-button {
+    background-color: #ed7225;
+    color: white;
+    /* adjust text color for contrast */
+}
+
+.orange-button:hover,
+.orange-button1:hover {
+    background-color: #c55f1f;
+    color: rgb(201, 200, 200);
+}
+
+button>a {
+    color: white;
+    text-decoration: none;
+}
+
+#blue {
+    background-color: #667385;
+}
+
+#blue>a {
+    background-color: transparent;
+}
+
+#blue:hover {
+    background-color: #545f6d;
+}
+
+#category {
+    background-color: #6a7788;
+    color: white;
+}
+
+input::file-selector-button {
+    font-weight: bold;
+    color: #F4FDFF;
+    background-color: #6a7788;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+#orderTable {
+    width: 100%;
+}
+
+#delivered {
+    width: 95px;
+}
+
+#description {
+    background-color: #4b586b;
+    /* border: 2px solid black; */
+}

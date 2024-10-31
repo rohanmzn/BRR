@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "tenor sans";
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4b586b;
+  font-family: "Tenor Sans";
+  color: #fff;
+}
+
+.cate-head {
+  width: 100%;
+  text-align: left;
+  font-size: 32px;
+  padding-top: 56px;
+}
+
+.cate-head>div {
+  float: left;
+}
+
+.cate-text {
+  padding-left: 3.9%;
+  width: 86%;
+}
+
+.filter {
+  line-height: 24px;
+  text-transform: uppercase;
+  text-shadow: 1px 0 0#f5f5f5, 0 1px 0#f5f5f5, -1px 0 0#f5f5f5, 0-1px 0#f5f5f5;
+}
+
+.button {
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: 12px;
+  background-color: #ed7225;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 33px;
+  box-sizing: border-box;
+  gap: 16px;
+  text-align: center;
+  font-size: 22px;
+  color: #fcfcfc;
+}
+
+.product-grid {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-size: 24px;
+  padding: 50px;
+  /* width: 100px; */
+}
+
+.product-grid>.product {
+  float: left;
+  margin-left: 1.8%;
+  margin-bottom: 1.8%;
+}
+
+.product {
+  width: 320px;
+  height: 394px;
+  border-radius: 30px;
+  background-color: #6c7b8e;
+}
+
+.display {
+  height: 80.45%;
+  width: 93.13%;
+  padding: 10px 0 0 10px;
+}
+
+.disp {
+  height: 298px;
+  width: 298px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.product-text {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.product-name {
+  top: 0;
+  font-size: 24px;
+  text-shadow: 0.5px 0 0#fff, 0 0.5px 0#fff, -0.5px 0 0#fff, 0-0.5px 0#fff;
+}
+
+.product {
+  font-size: 20px;
+}
+
+/* modal */
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  /* Ensure modal is on top of other content */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Semi-transparent background */
+}
+
+.modal-content {
+  color: #000;
+  background-color: red;
+  margin: 10% auto;
+  /* Center the modal vertically and horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 350px;
+  /* Limit width of the modal */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Add a shadow effect */
+}
+
+.modal-content>label {
+  font-size: 12px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Additional styling for input fields */
+input[type="number"] {
+  width: 25%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #ed7225;
+  /* Highlight border color on focus */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  /* Aligns children (the button) on the main axis (horizontally) */
+  align-items: center;
+  /* Aligns children (the button) on the cross axis (vertically) */
+  margin-top: 20px;
+  /* Optional: adds some space between the inputs and the button */
+}
+
+button {
+  background-color: #ed7225;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+#blue {
+  background-color: #6c7b8e;
+}
+button:hover{background-color: #cc6220;}
+#blue:hover{background-color: #616e7d;}
+.display .disp {
+  overflow: hidden;
+  /* Ensures no overflow */
+  display: flex;
+  /* Utilizes Flexbox for centering */
+  justify-content: center;
+  /* Centers image horizontally */
+  align-items: center;
+  /* Centers image vertically */
+}
+
+.display .disp img {
+  max-width: 100%;
+  /* Makes image responsive, ensuring it's not wider than its parent */
+  max-height: 100%;
+  /* Ensures the image's height doesn't exceed the parent's height */
+  height: auto;
+  /* Maintains aspect ratio */
+  width: auto;
+  /* Maintains aspect ratio */
+}
+
+/* search bar css */
+.search input,
+.search button {
+  margin: 0;
+  /* Adjust as necessary */
+  padding: 10px 20px;
+  /* Example padding; adjust as necessary */
+  /* other styles */
+}
+
+.noProduct {
+  height: 420px;
+}
